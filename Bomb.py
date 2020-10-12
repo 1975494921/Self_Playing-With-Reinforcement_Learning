@@ -15,6 +15,10 @@ Bomb_List = []
 for i in range(Bomb_Num):
     Bomb_List.append(Bomb_define())
 
+# Bomb index start with 0, end with Bomb_Num - 1.
+# make sure the number of bombs you set in the follow codes are the same as Bomb_Num
+# Bomb_List[index].set(X_Coordinate, Y_Coordinate, True)
+# Also, 0 <= X_Coordinate <= Board_Size_X - 1 , the same as Y.
 
 Bomb_List[0].set(2, 2, True)
 Bomb_List[1].set(1, 0, True)
