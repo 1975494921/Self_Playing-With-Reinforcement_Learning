@@ -15,6 +15,7 @@ Bomb_List = []
 for i in range(Bomb_Num):
     Bomb_List.append(Bomb_define())
 
+
 Bomb_List[0].set(2, 2, True)
 Bomb_List[1].set(1, 0, True)
 Bomb_List[2].set(6, 3, True)
@@ -25,17 +26,18 @@ Bomb_List[6].set(13, 13, True)
 Bomb_List[7].set(10, 3, True)
 Bomb_List[8].set(15, 20, True)
 Bomb_List[9].set(1, 3, True)
+
 Bomb_List[10].set(3, 4, True)
 Bomb_List[11].set(2, 5, True)
 Bomb_List[12].set(2, 6, True)
 Bomb_List[13].set(4, 7, True)
 Bomb_List[14].set(7, 7, True)
-
 Bomb_List[15].set(17, 17, True)
 Bomb_List[16].set(18, 18, True)
 Bomb_List[17].set(16, 18, True)
 Bomb_List[18].set(19, 16, True)
 Bomb_List[19].set(16, 19, True)
+
 Bomb_List[20].set(18, 15, True)
 Bomb_List[21].set(9, 6, True)
 Bomb_List[22].set(10, 7, True)
